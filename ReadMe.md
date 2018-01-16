@@ -1,23 +1,23 @@
-Win32_SineWave程序：在windows窗体上画一个正弦函数
+Win32_SineWave锟斤拷锟斤拷锟斤拷windows锟斤拷锟斤拷锟较伙拷一锟斤拷锟斤拷锟揭猴拷锟斤拷
 ![image]=(https://github.com/PowerfulGun/Win32_SineWave/blob/master/SineWave.png)
-核心API函数：MoveToEx(hdc,xbeg,ybeg,lpPOINT)
-作用：设置绘制起始点
-参数：
-in	hdc--Long，设备环境句柄
-in	xbeg--Long，起始点x坐标
-in	ybeg--Long，起始点y坐标
-out	lpPOINT--指向POINT结构体的指针，用来返回上个绘制起始点
+锟斤拷锟斤拷API锟斤拷锟斤拷锟斤拷MoveToEx(hdc,xbeg,ybeg,lpPOINT)
+锟斤拷锟矫ｏ拷锟斤拷锟矫伙拷锟斤拷锟斤拷始锟斤拷
+锟斤拷锟斤拷锟斤拷
+in	hdc--Long锟斤拷锟借备锟斤拷锟斤拷锟斤拷锟?
+in	xbeg--Long锟斤拷锟斤拷始锟斤拷x锟斤拷锟斤拷
+in	ybeg--Long锟斤拷锟斤拷始锟斤拷y锟斤拷锟斤拷
+out	lpPOINT--指锟斤拷POINT锟结构锟斤拷锟街革拷耄拷锟斤拷锟斤拷锟斤拷锟斤拷细锟斤拷锟斤拷锟斤拷锟绞硷拷锟?
 
-核心API函数：LineTo(hdc,xEnd,yEnd)
-作用：从绘制起始点画一条直线到x、y处
-参数：
-in	hdc--设备环境句柄
-in	xEnd--目标x坐标
-in	yEnd--目标Y坐标
+锟斤拷锟斤拷API锟斤拷锟斤拷锟斤拷LineTo(hdc,xEnd,yEnd)
+锟斤拷锟矫ｏ拷锟接伙拷锟斤拷锟斤拷始锟姐画一锟斤拷直锟竭碉拷x锟斤拷y锟斤拷
+锟斤拷锟斤拷锟斤拷
+in	hdc--锟借备锟斤拷锟斤拷锟斤拷锟?
+in	xEnd--目锟斤拷x锟斤拷锟斤拷
+in	yEnd--目锟斤拷Y锟斤拷锟斤拷
 
-核心API函数：PolyLine(hdc,lpPOINT,nCount)
-作用：将lpPOINT指向的坐标用直线连接起来，形成折线
-参数：
-in	hdc ------------ Long，要在其中绘图的设备场景
-in	lpPoint -------- 指向POINT数组
-in	nCount --------- Long，lpPoint数组中的点数。会从第一个点到第二个点画一条线，以次类推
+锟斤拷锟斤拷API锟斤拷锟斤拷锟斤拷PolyLine(hdc,lpPOINT,nCount)
+锟斤拷锟矫ｏ拷锟斤拷lpPOINT指锟斤拷锟斤拷锟斤拷锟斤拷锟街憋拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷纬锟斤拷锟斤拷锟?
+锟斤拷锟斤拷锟斤拷
+in	hdc ------------ Long锟斤拷要锟斤拷锟斤拷锟叫伙拷图锟斤拷锟借备锟斤拷锟斤拷
+in	lpPoint -------- 指锟斤拷POINT锟斤拷锟斤拷
+in	nCount --------- Long锟斤拷lpPoint锟斤拷锟斤拷锟叫的碉拷锟斤拷锟斤拷锟斤拷拥锟揭伙拷锟斤拷愕斤拷诙锟斤拷锟斤拷慊伙拷锟斤拷撸锟斤拷源锟斤拷锟斤拷锟?
