@@ -1,5 +1,5 @@
 Win32_SineWave程序：在windows窗体上画一个正弦函数
-
+![image]=(https://github.com/PowerfulGun/Win32_SineWave/blob/master/SineWave.png)
 核心API函数：MoveToEx(hdc,xbeg,ybeg,lpPOINT)
 作用：设置绘制起始点
 参数：
